@@ -1,0 +1,229 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+
+}
+.nav-topsection
+{
+    background-color: black;
+    color: white;
+}
+.nav-top-section-menu .section-left a
+
+{ border-right:1px solid gray;
+    text-decoration: none;
+padding:0 10px;
+color: white;
+
+}
+
+
+.nav-top-section-menu .section-right .language-selector
+{
+    background-color: black !important;
+    border: none;
+    outline: none !important;
+    color: white;
+}
+.fa-brands 
+{
+    color: white;
+}
+
+.p{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    
+}
+#col
+{
+    color:rgb(7, 7, 67);
+}
+
+.banner-img{
+    
+
+    background: url("h.jpg");
+    background-color: black;
+    opacity: 1.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+
+}
+.fon{
+    font-family:'Times New Roman', Times, serif
+}
+/*.headings{
+    position: absolute;
+    top:35%;
+    left: 500px;
+}*/
+.nav-item{
+    align-items: flex-end;
+}
+
+
+.CON{
+    background-color: rgb(49, 49, 89);
+    color: antiquewhite;
+}
+.CL{
+    height: 199px;
+   position: relative;
+   top: 50;
+left:150;
+margin-bottom: 150;
+bottom: 150;
+}
+.grid-image-grid
+{
+ 
+ display: grid;
+grid-template-columns:repeat(4,1fr);
+font-weight: bold;
+gap: 2px;
+padding: 70;
+}
+#bol
+{
+    text-align: center;
+}
+.grid-item-1{
+    grid-column:span 2;
+    grid-row: 1/3;
+}
+.grid-item-5
+{
+    grid-column:3/-1;
+    grid-row:span 2;
+    text-align: right;
+
+}
+.grid-item6
+{
+    grid-column:3/2 ;
+    
+    
+}
+.grid-item-4
+{
+    grid-row: 3;
+}
+
+.rowss
+{
+ background-color:whitesmoke;
+
+padding: 70;
+padding: bottom 0;
+}
+.column2>h5{
+    font-weight:bold ;
+}
+.box.border
+{
+    
+    height: 35%;
+   border-radius: 60;
+}
+
+ .box1.border
+ {
+    background-color: black;
+    width: 330;
+    
+    
+ } 
+ 
+
+ #bg
+ {
+    
+    background-color: gainsboro;
+
+    
+ }
+
+
+.grid-image-grid2
+{
+    justify-content: space-around;
+}
+#NA
+{
+    color: blue;
+}
+.grid-arrows
+{
+  text-align: end;
+}
+.fa-solid
+
+{
+    height: 50px; 
+    
+}
+#company{
+    width:70%;
+
+}
+
+#fa
+{
+    color: rgb(60, 117, 202);
+    height: 50px;
+    
+}
+#cont
+{
+    background-color: black;
+    justify-content:space-between;
+    
+    align-items: center;
+}
+.footsec
+{
+    background-color: black;
+    
+    
+}
+#foot
+{
+    margin-left: 100;
+    background-color: black;
+    justify-items: center;
+    
+}
+.border-top
+{
+justify-content: center;
+      
+}
+.form-rounded,.btn-rounded
+{
+    border-radius: 5rem;
+}
+.btn-text
+{
+    color: rgb(71, 71, 99);
+}
+.footside
+{
+    
+    text-decoration: none;
+
+    
+}
+.foot_side,.fa-arrow-up
+{
+    text-decoration: none;
+    margin-left: 445;
+}
+
